@@ -23,7 +23,7 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-  remainder = num1 % num2
+  remainder = num1.modulo(num2)
   puts remainder
   remainder
 end
